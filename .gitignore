@@ -1,0 +1,42 @@
+# Virtual Environment
+.venv/
+venv/
+*.pyc
+__pycache__/
+
+# Cache
+.cache/
+data/cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Environment variables (重要!)
+.env
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Streamlit
+.streamlit/
+
+# Python
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Windows
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
