@@ -61,3 +61,7 @@ Contributions are welcome! Please feel free to submit a pull request.
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Future Plans
+
+I'm considering developing the next version with Django or Flask.
