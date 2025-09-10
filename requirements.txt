@@ -17,10 +17,12 @@ numpy==2.3.2
 packaging==25.0
 pandas==2.3.2
 pillow==11.3.0
+plotly==5.17.0
 protobuf==6.32.0
 pyarrow==21.0.0
 pydeck==0.9.1
 python-dateutil==2.9.0.post0
+python-dotenv==1.0.0
 pytz==2025.2
 referencing==0.36.2
 requests==2.32.5

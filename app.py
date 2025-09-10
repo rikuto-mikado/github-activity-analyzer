@@ -36,6 +36,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+
 def main():
     """Main function to run the Streamlit application."""
     # --- Header ---
@@ -52,9 +53,6 @@ def main():
         value="rikuto-mikado",
         help="Enter the GitHub username to analyze",
     )
-    # analysis_period = st.sidebar.selectbox(
-    #     "Analysis Period", ["Last 30 days", "Last 90 days", "Last year", "All time"]
-    # ) # This feature is not yet implemented
 
     if not username:
         st.warning("Please enter a GitHub username.")
@@ -101,6 +99,7 @@ def main():
 
         st.subheader("🏆 Top Repositories")
         visualizer.display_top_repos(top_repos)
+
 
 if __name__ == "__main__":
     main()
