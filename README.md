@@ -2,6 +2,10 @@
 
 This project is a web application to analyze and visualize GitHub user activity. It fetches data from the GitHub API and displays it in an interactive dashboard.
 
+## Demo
+
+https://github-activity-analyzer-e34l.onrender.com/
+
 ## Features
 
 *   Fetches user activity data from GitHub.
